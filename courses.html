@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Courses · My Course Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a href="index.html" class="brand">
+        <span class="brand__mark">ARCHIVE</span>
+        <span class="brand__name">My Course Archive</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="courses.html" aria-current="page">All Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumbs container" aria-label="Breadcrumb">
+    <a href="index.html">Home</a> <span>/</span> <span>All Courses</span>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>All Courses</h2>
+          <span class="section__count" id="courses-count"></span>
+        </div>
+
+        <div class="search-wrap" style="margin-top:0; margin-bottom:26px; max-width:520px;">
+          <div class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="search" id="courses-search" placeholder="Search by course code, name, or faculty…" aria-label="Search courses">
+          </div>
+        </div>
+
+        <div class="semester-tabs" id="semester-tabs"></div>
+
+        <div class="course-grid" id="courses-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built with HTML, CSS and vanilla JavaScript. Static and self-hosted — no backend, no tracking.
+    </div>
+  </footer>
+
+  <script src="js/courses.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

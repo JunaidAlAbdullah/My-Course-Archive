@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Course Archive</title>
+  <meta name="description" content="A personal archive of lecture slides, notes, previous questions, assignments and other materials from completed university courses.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a href="index.html" class="brand">
+        <span class="brand__mark">ARCHIVE</span>
+        <span class="brand__name">My Course Archive</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="site-nav">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="courses.html">All Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="hero__eyebrow">PERSONAL REFERENCE — NOT A CLASSROOM</p>
+        <h1>Everything I studied, kept in one place.</h1>
+        <p class="lede">A personal collection of slides, notes, previous questions, assignments and other materials from courses I've already completed — organized so I can actually find things again.</p>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__value" id="stat-total-courses">0</span>
+            <span class="stat__label">Courses archived</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="stat-total-resources">0</span>
+            <span class="stat__label">Files catalogued</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="stat-total-semesters">0</span>
+            <span class="stat__label">Semesters covered</span>
+          </div>
+        </div>
+
+        <div class="search-wrap">
+          <div class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="search" id="home-search" placeholder="Search by course code, name, or faculty…" aria-label="Search courses">
+          </div>
+          <p class="search-hint">Try "structured", "CSE103", or a faculty name.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Courses</h2>
+          <a href="courses.html" class="course-card__term">View all &rarr;</a>
+        </div>
+        <div class="course-grid" id="home-course-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built with HTML, CSS and vanilla JavaScript. Static and self-hosted — no backend, no tracking.
+    </div>
+  </footer>
+
+  <script src="js/courses.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

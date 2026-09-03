@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course · My Course Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a href="index.html" class="brand">
+        <span class="brand__mark">ARCHIVE</span>
+        <span class="brand__name">My Course Archive</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="courses.html">All Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumbs container" aria-label="Breadcrumb">
+    <a href="index.html">Home</a> <span>/</span>
+    <a href="courses.html">All Courses</a> <span>/</span>
+    <span id="crumb-course">…</span>
+  </nav>
+
+  <main id="course-root"></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      Built with HTML, CSS and vanilla JavaScript. Static and self-hosted — no backend, no tracking.
+    </div>
+  </footer>
+
+  <script src="js/courses.js"></script>
+  <script src="js/course-detail.js"></script>
+</body>
+</html>

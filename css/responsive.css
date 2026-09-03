@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Responsive adjustments
+   ========================================================================== */
+
+@media (max-width: 760px) {
+  .container { padding: 0 20px; }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--paper-raised);
+    border-bottom: 2px solid var(--ink);
+    flex-direction: column;
+    padding: 8px 20px 16px;
+  }
+
+  .site-nav.is-open { display: flex; }
+
+  .site-nav a { padding: 10px 4px; }
+
+  .nav-toggle { display: inline-flex; }
+
+  .hero { padding: 44px 0 30px; }
+
+  .hero__stats { gap: 22px; }
+
+  .course-grid { grid-template-columns: 1fr; }
+
+  .resource-list { grid-template-columns: 1fr; }
+
+  .course-meta { gap: 18px; }
+
+  .section { padding: 34px 0; }
+}
+
+@media (max-width: 480px) {
+  .brand__name { font-size: 18px; }
+  .hero h1 { font-size: 28px; }
+  .semester-tabs { gap: 6px; }
+  .semester-tab { padding: 7px 11px; font-size: 13px; }
+}
