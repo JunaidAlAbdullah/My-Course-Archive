@@ -67,7 +67,7 @@ const COURSES = [
   {
     code: "MAT101",
     name: "Differential & Integral Calculus",
-    faculty: "TBD",
+    faculty:"Kazi Nusrat Islam - KNI",
     semester: "1st Semester",
     term: "",
     description: "Limits, continuity, differentiation and integration of single-variable functions, with applications.",
@@ -134,7 +134,7 @@ const COURSES = [
   {
     code: "ENG101",
     name: "Basic English",
-    faculty: "ANISA MEHEDI",
+    faculty: "ANISA MEHEDI - ANISA",
     semester: "1st Semester",
     term: "FALL 2024",
     outline: "content/1st-semester/ENG101-basic-english/resources/ENG101 Course Outline.pdf",
@@ -158,7 +158,7 @@ const COURSES = [
   {
     code: "CSE103",
     name: "Structured Programming",
-    faculty: "Md. Ashraful Haider Chowdhury",
+    faculty: "Md. Ashraful Haider Chowdhury - MAHCY",
     semester: "1st Semester",
     term: "Fall 2024",
     description: "Introduction to structured programming in C: control flow, functions, arrays, pointers, structures and file handling.",
@@ -214,7 +214,7 @@ const COURSES = [
   {
     code: "MAT102",
     name: "Differential Equations & Special Functions",
-    faculty: "ASHRAF",
+    faculty: "Md. Ashraf Hossain - ASHRAF",
     semester: "2nd Semester",
     term: "",
     description: "Ordinary differential equations, series solutions and special functions.",
@@ -223,7 +223,7 @@ const COURSES = [
   {
     code: "ENG102",
     name: "Composition and Communication Skills",
-    faculty: "ANISA MEHEDI",
+    faculty: "ANISA MEHEDI - ANISA",
     semester: "2nd Semester",
     term: "Spring 2024",
     outline: "content/2nd-semester/ENG102-composition-and-communication-skills/resources/ENG102 Course Outline.pdf",
@@ -251,7 +251,7 @@ const COURSES = [
   {
     code: "CHE109",
     name: "Engineering Chemistry-I",
-    faculty: "ZUH",
+    faculty: "Dr. Zubair Hasan - ZUH",
     semester: "2nd Semester",
     term: "",
     description: "Core chemistry concepts relevant to engineering practice.",
@@ -262,7 +262,7 @@ const COURSES = [
   {
     code: "CSE110",
     name: "Object Oriented Programming",
-    faculty: "DSU",
+    faculty: "Dr. Muhammad Salah Uddin - DSU",
     semester: "3rd Semester",
     term: "",
     description: "OOP principles in C++/Java: classes, inheritance, polymorphism, encapsulation and exception handling.",
@@ -271,7 +271,7 @@ const COURSES = [
   {
     code: "MAT104",
     name: "Co-ordinate Geometry & Vector Analysis",
-    faculty: "DSHI",
+    faculty: "Dr. Md. Shahidul Islam - DSHI",
     semester: "3rd Semester",
     term: "",
     description: "Coordinate geometry in 2D/3D and vector calculus fundamentals.",
@@ -280,7 +280,7 @@ const COURSES = [
   {
     code: "PHY109",
     name: "Engineering Physics-I",
-    faculty: "MMHQ",
+    faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "3rd Semester",
     term: "",
     description: "Mechanics, waves and thermodynamics for engineering students.",
@@ -291,7 +291,7 @@ const COURSES = [
   {
     code: "MAT205",
     name: "Linear Algebra & Complex Variables",
-    faculty: "SHARIFUL",
+    faculty: "Dr. Md. Shariful Alam - SHARIF",
     semester: "4th Semester",
     term: "",
     description: "Matrices, vector spaces, eigenvalues, and complex analysis basics.",
@@ -300,7 +300,7 @@ const COURSES = [
   {
     code: "STA102",
     name: "Statistics and Probability",
-    faculty: "AAS",
+    faculty: "DR. AFSANA AL SHARMIN - AAS",
     semester: "4th Semester",
     term: "",
     description: "Probability theory, distributions, estimation and hypothesis testing.",
@@ -309,7 +309,7 @@ const COURSES = [
   {
     code: "CSE209",
     name: "Electrical Circuits",
-    faculty: "DSMU",
+    faculty: "Dr. Sayeed Mahmud Ullah - DSMU",
     semester: "4th Semester",
     term: "",
     description: "DC/AC circuit analysis, network theorems and transient response.",
@@ -318,7 +318,7 @@ const COURSES = [
   {
     code: "CSE200",
     name: "Computer-Aided Engineering Drawing",
-    faculty: "ANTU",
+    faculty: "Antu Chowdury - ANTU",
     semester: "4th Semester",
     term: "",
     description: "CAD fundamentals and technical drawing conventions.",
@@ -329,7 +329,7 @@ const COURSES = [
   {
     code: "CSE302",
     name: "Database Systems",
-    faculty: "ANTU",
+    faculty: "Antu Chowdhury - ANTU",
     semester: "5th Semester",
     term: "",
     description: "Relational model, SQL, normalization, transactions and database design.",
@@ -338,7 +338,7 @@ const COURSES = [
   {
     code: "ECO7101",
     name: "Principles of Microeconomics",
-    faculty: "AMRH",
+    faculty: "DR. M. AMIR HUSSAIN - AMRH",
     semester: "5th Semester",
     term: "",
     description: "Supply and demand, market structures, and consumer/producer theory.",
@@ -347,7 +347,7 @@ const COURSES = [
   {
     code: "CSE207",
     name: "Data Structures",
-    faculty: "AASR",
+    faculty: "Ahmed Abdal Shafi Rasel - AASR",
     semester: "5th Semester",
     term: "",
     description: "Arrays, linked lists, stacks, queues, trees, graphs and their algorithms.",
@@ -358,7 +358,7 @@ const COURSES = [
   {
     code: "GEN7226",
     name: "Emergence of Bangladesh",
-    faculty: "MAAHC",
+    faculty: "Md. Abdullah Al Hasan Chowdhury - MAAHC",
     semester: "6th Semester",
     term: "",
     description: "History and socio-political emergence of Bangladesh.",
@@ -367,7 +367,7 @@ const COURSES = [
   {
     code: "PHY209",
     name: "Engineering Physics-II",
-    faculty: "MMHQ",
+    faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "6th Semester",
     term: "",
     description: "Electromagnetism, optics and modern physics for engineers.",
@@ -376,7 +376,7 @@ const COURSES = [
   {
     code: "CSE325",
     name: "Operating Systems",
-    faculty: "MOON",
+    faculty: "Shatabdi Roy Moon - MOON",
     semester: "6th Semester",
     term: "",
     description: "Processes, scheduling, memory management, concurrency and file systems.",
@@ -385,7 +385,7 @@ const COURSES = [
   {
     code: "CSE251",
     name: "Electronic Circuits",
-    faculty: "Dr. Md. Habibur Rahman",
+    faculty: "Dr. Md. Habibur Rahman - MHR",
     semester: "6th Semester",
     term: "Summer 2026",
     description: "Diodes, BJTs, MOSFETs and operational amplifiers: theory, design and lab practice.",
