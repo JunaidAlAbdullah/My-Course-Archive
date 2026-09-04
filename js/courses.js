@@ -727,7 +727,7 @@ const COURSES = [
         { title: "Lab - System Call Part B", file: "content/6th-semester/CSE325-operating-systems/slides/Lab-SystemCall_PART-B.pdf" },
       ],
       notes: [
-        { title: "Hand Notes", file: "content/6th-semester/CSE325-operating-systems/notes/HandNotes.zip" },
+        { title: "Hand Notes", file: "content/6th-semester/CSE325-operating-systems/notes/CSE325HandNote.pdf" },
       ],
       previousQuestions: [
         { title: "Quiz 1", file: "content/6th-semester/CSE325-operating-systems/previous-questions/Quiz1.JPG" },
