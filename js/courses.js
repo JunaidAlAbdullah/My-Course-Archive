@@ -428,34 +428,143 @@ const COURSES = [
 
 
 
+
+
+
   // ---------------- 3rd Semester ----------------
   {
     code: "CSE110",
     name: "Object Oriented Programming",
     faculty: "Dr. Muhammad Salah Uddin - DSU",
     semester: "3rd Semester",
-    term: "",
+    term: "Summer 2025",
+    outline:"content/3rd-semester/CSE110-object-oriented-programming/resources/CSE 110 CourseOutline.pdf",
     description: "OOP principles in C++/Java: classes, inheritance, polymorphism, encapsulation and exception handling.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Object", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/Object.pdf" },
+        { title: "Abstract Class - Interface", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/AbstractClass_interfaces.pdft.pdf" },
+        { title: "Inheritence, Polymorphism", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/11slide.pdf" },
+        { title: "Exception Handling", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/Exception Handling.pdf" },
+        { title: "File Operation", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/FileOperationJava.pdf" },
+
+      ],
+      notes: [],
+      previousQuestions: [
+        
+        { title: "Quiz 1", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz1.2.jpg" },
+        { title: "Quiz 2", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz2.jpg" },
+        { title: "Quiz 1", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz1.2.jpg" },
+        { title: "Mid Summer25 SetA Front", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Summer 2025 Set-A 1st page.jpg" },
+        { title: "Mid Summer25 SetA Back", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Summer 2025 Set-A 2nd page.jpg" },
+        { title: "Mid Summer25 SetB Front", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Summer 2025 Set-B 1st page.jpg" },
+        { title: "Mid Summer25 SetB Front", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Summer 2025 Set-B 2nd page.jpg" },
+        { title: "Mid Spring25 Front", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Spring25 1st page.jpg" },
+        { title: "Mid Spring25 Back", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Spring25 1st page.jpg" },
+        { title: "Final Set A", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Set1.jpg" },
+        { title: "Final Set B", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Set2.jpg" },
+        { title: "Final Set C", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Set3.jpg" },
+      ],
+      assignments: [],
+      books: [],
+      project: [
+
+        { title: "Ticket Booking System", file: "content/3rd-semester/CSE110-object-oriented-programming/project/CSE110 Project.zip" },
+      ],
+      resources: [
+        
+        { title: "Lab Works", file: "content/3rd-semester/CSE110-object-oriented-programming/resources/Lab Works.zip" },
+      ]
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "MAT104",
     name: "Co-ordinate Geometry & Vector Analysis",
     faculty: "Dr. Md. Shahidul Islam - DSHI",
     semester: "3rd Semester",
-    term: "",
+    term: "Summer 2025",
+    outline:"content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/resources/MAT104 Course Outline.pdf.pdf",
     description: "Coordinate geometry in 2D/3D and vector calculus fundamentals.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: { 
+      slides: [],
+      notes: [], 
+      previousQuestions: [],
+      assignments: [],
+      books: [],
+      project: [], 
+      resources: [] },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "PHY109",
     name: "Engineering Physics-I",
     faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "3rd Semester",
-    term: "",
+    term: "Summer 2025",
+    outline:"content/3rd-semester/PHY109-engineering-physics-1/resources/PHY109 Course Outline.pdf",
     description: "Mechanics, waves and thermodynamics for engineering students.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: { 
+      slides: [], 
+      notes: [], 
+      previousQuestions: [
+        
+        { title: "Quiz 1", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/Quiz1.pdf" },
+        { title: "Quiz 2", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/Quiz 2.jpg" },
+        { title: "Mid", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/mid.jpg" },
+      ], 
+      assignments: [
+        
+        { title: "Assignment 2", file: "content/3rd-semester/PHY109-engineering-physics-1/assignments/Assignment 2.pdf" },
+      ], 
+      books: [
+        
+        { title: "Fundamentals of Physics", file: "content/3rd-semester/PHY109-engineering-physics-1/books/Fundamentals of Physics, 11th Edition Extended.pdf" },
+      ], 
+      project: [], 
+      resources: [] 
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // ---------------- 4th Semester ----------------
   {
@@ -467,6 +576,17 @@ const COURSES = [
     description: "Matrices, vector spaces, eigenvalues, and complex analysis basics.",
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "STA102",
     name: "Statistics and Probability",
@@ -520,7 +640,7 @@ const COURSES = [
       ],
       notes: [
 
-        { title: "Hand Note", file: "content/5th-semester/CSE302-database-systems/notes/CSE302 Hand Note.zip" },
+        { title: "Hand Note", file: "content/5th-semester/CSE302-database-systems/notes/CSE302 Handnote.pdf" },
       ],
       previousQuestions: [
 
