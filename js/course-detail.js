@@ -77,13 +77,13 @@
   const activeCategories = Object.entries(course.categories).filter(([, list]) => list.length > 0);
 
   if (activeCategories.length === 0) {
-    body.innerHTML = `
-      <div class="empty-state">
-        <h3>No resources added yet</h3>
-        <p>Once you copy files into this course's folders and list them in <code>js/courses.js</code>, they'll appear here automatically.</p>
-      </div>
-    `;
-  } else {
+  body.innerHTML = `
+    <div class="empty-state">
+      <h3>No resources added yet</h3>
+      <!-- <p>Once you copy files into this course's folders and list them in <code>js/courses.js</code>, they'll appear here automatically.</p> -->
+    </div>
+  `;
+}else {
     activeCategories.forEach(([key, list]) => {
       const config = CATEGORY_CONFIG[key] || { label: key, color: "purple" };
       const section = document.createElement("section");

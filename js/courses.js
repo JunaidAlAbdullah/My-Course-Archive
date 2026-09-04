@@ -63,16 +63,64 @@ const CATEGORY_CONFIG = {
    simply omitted from the course page automatically. */
 const COURSES = [
 
+
+
+
+
+
+
+
+
   // ---------------- 1st Semester ----------------
   {
     code: "MAT101",
     name: "Differential & Integral Calculus",
-    faculty:"Kazi Nusrat Islam - KNI",
+    faculty: "Kazi Nusrat Islam - KNI",
     semester: "1st Semester",
-    term: "",
+    term: "Fall 2024",
+    outline: "content/1st-semester/MAT101-differential-and-integral-calculus/resources/MAT101 Course Outline.pdf",
     description: "Limits, continuity, differentiation and integration of single-variable functions, with applications.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1(a) Function", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 1(a) Function.pdf" },
+        { title: "Lecture 1(b) Domain Range", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 1(b) Domain Range.pdf" },
+        { title: "Lecture 2(a) Limit", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 2(a) Limit.pdf" },
+        { title: "Lecture 2(b) Continuity", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 2(b) Continuity.pdf" },
+        { title: "Lecture 3 Derivative", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 3 Derivative.pdf" },
+        { title: "Lecture 4 Successive Differentiation", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 4 Successive Differentiation.pdf" },
+        { title: "Lecture 5 Leibnitz Theorem", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 5 Leibnitz Theorem.pdf" },
+        { title: "Lecture 6 Rolle's Theorem and Mean Value Theorem", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 6 Rolle's Theorem and Mean Value Theorem.pdf" },
+        { title: "Lecture 7 Increasing Decreasing Concavity", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 7 Increasing Decreasing Concavity.pdf" },
+        { title: "Lecture 7 Increasing Decreasing Concavity 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 7 Increasing Decreasing Concavity 2.pdf" },
+        { title: "Lecture 8 Relative Extrema", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Extrema.pdf" },
+        { title: "Lecture 8 Relative Extrema 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Extrema 2.pdf" },
+        { title: "Lecture 10 Partial Differentiation", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 10 Partial Differentiation.pdf" },
+        { title: "Lecture 11 Euler's Theorem for Homogeneous Function", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 11 Euler's Theorem for Homogeneous Function.pdf" },
+        { title: "Lecture 12 Integration Part 1", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 12 Integration Part 1.pdf" },
+        { title: "Lecture 13 Integration Part 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 13 Integration Part 2.pdf" },
+        { title: "Lecture 14 Integration Part 3", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 14 Integration Part 3.pdf" },
+        { title: "Lecture 15 Gamma Beta Function", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 15 Gamma Beta Function.pdf" },
+      ],
+      notes: [],
+      previousQuestions: [],
+      assignments: [],
+      books: [
+        { title: "Calculus Early Transcendentals", file: "content/1st-semester/MAT101-differential-and-integral-calculus/books/calculus early transcendentals 10th edition howard anton iril bivens stephen davi.pdf" },
+        { title: "Differential Calculus", file: "content/1st-semester/MAT101-differential-and-integral-calculus/books/Differential Calculus-Das _ Mukharjee.pdf" },
+      ],
+      project: [],
+      resources: [
+        { title: "Presentation Slide", file: "content/1st-semester/MAT101-differential-and-integral-calculus/resources/MAT101 Presentation Group 1.pdf" },
+      ]
+    },
   },
+
+
+
+
+
+
+
   {
     code: "CSE106",
     name: "Discrete Mathematics",
@@ -128,9 +176,22 @@ const COURSES = [
       project: [
         { title: "Final", file: "content/1st-semester/CSE106-discrete-mathematics/project/CSE106 Project.zip" }
       ],
-      resources: []
+      resources: [
+        { title: "Presentation Slide", file: "content/1st-semester/CSE106-discrete-mathematics/resources/CSE 106 Presentation.pdf" }
+      ]
     },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "ENG101",
     name: "Basic English",
@@ -155,6 +216,17 @@ const COURSES = [
       resources: []
     },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CSE103",
     name: "Structured Programming",
@@ -210,16 +282,60 @@ const COURSES = [
     },
   },
 
+
+
+
+
+
+
+
+
   // ---------------- 2nd Semester ----------------
   {
     code: "MAT102",
     name: "Differential Equations & Special Functions",
     faculty: "Md. Ashraf Hossain - ASHRAF",
     semester: "2nd Semester",
-    term: "",
+    term: "Spring 2024",
+    outline: "content/2nd-semester/MAT102-differential-equations-and-special-functions/resources/MAT102 Course Outline.pdf",
     description: "Ordinary differential equations, series solutions and special functions.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Basic Differential Equations", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Basic diff.pdf" },
+        { title: "Chapter 1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Chapter 1.pdf" },
+        { title: "Chapter 2", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Chapter 2.pdf" },
+        { title: "Chapter 5", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Chapter 5.pdf" },
+        { title: "Chapter 6", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_6.pdf" },
+        { title: "Chapter 6.1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_6 1.pdf" },
+        { title: "Chapter 7", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_7.pdf" },
+        { title: "Chapter 8", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_8.pdf" },
+        { title: "Partial Differential Equations 1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/PDE_01.pdf" },
+        { title: "Partial Differential Equations 2.1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/PDE_02_1.pdf" },
+        { title: "Partial Differential Equations 2.2", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/PDE_02_2.pdf" },
+        { title: "Partial Differential Equations - Higher Order", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/PDE_Higher_Order.pdf" },
+      ],
+      notes: [],
+      previousQuestions: [],
+      assignments: [],
+      books: [
+        { title: "Advanced Engineering Mathematics", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/books/Advanced Engineering Mathematics by H.K. Dass.pdf" },
+        { title: "Ordinary & Partial Differentiation", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/books/ORDINARY AND PARTIAL Differentiation.pdf" },
+      ],
+      project: [],
+      resources: []
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "ENG102",
     name: "Composition and Communication Skills",
@@ -231,7 +347,7 @@ const COURSES = [
     categories:
     {
       slides: [
-         {title: "Course Compilation", file: "content/2nd-semester/ENG102-composition-and-communication-skills/slides/ENG102 Course Compilation.pdf" }
+        { title: "Course Compilation", file: "content/2nd-semester/ENG102-composition-and-communication-skills/slides/ENG102 Course Compilation.pdf" }
       ],
       notes: [],
       previousQuestions: [
@@ -248,6 +364,17 @@ const COURSES = [
       resources: []
     },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CHE109",
     name: "Engineering Chemistry-I",
@@ -255,8 +382,51 @@ const COURSES = [
     semester: "2nd Semester",
     term: "",
     description: "Core chemistry concepts relevant to engineering practice.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1 - Atomic Structure 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Lecture 1 Atomic structure 1.pdf" },
+        { title: "Lecture 2 - Atomic Structure 2", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Lecture 2 Atomic structure 2.pdf" },
+        { title: "Lecture 3 - Atomic Structure 3", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Lecture 3 Atomic structure 3.pdf" },
+        { title: "Lecture 4 - Chemical Bonding", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Lecture 4 Chemical Bonding.pdf" },
+        { title: "Lecture 5 - Acid Base", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Lecture 5 Acid Base.pdf" },
+        { title: "Chemical Equilibrium", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Chemical Equilibrium.pdf" },
+        { title: "Electrochemistry 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Electrochemistry 1.pdf" },
+        { title: "Electrochemistry 2", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Electrochemistry 2.pdf" },
+        { title: "Nuclear Chemistry", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Nuclear Chemistry.pdf" },
+        { title: "Redox Reactions", file: "content/2nd-semester/CHE109-engineering-chemistry-1/slides/Redox.pdf" },
+      ],
+      notes: [],
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Quiz 1.pdf" },
+        { title: "Mid", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Mid.pdf" },
+        { title: "Final", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Lab Quiz.pdf" },
+
+      ],
+      assignments: [],
+      books: [
+        { title: "Chemistry by Kenneth and Raymond", file: "content/2nd-semester/CHE109-engineering-chemistry-1/books/Chemistry by Kenneth A. Goldsby, Raymond Chang.pdf" },
+        { title: "Essentials Of Physical Chemistry", file: "content/2nd-semester/CHE109-engineering-chemistry-1/books/Essentials Of Physical Chemistry.pdf" },
+        { title: "General Chemistry Principles and Modern Application", file: "content/2nd-semester/CHE109-engineering-chemistry-1/books/General Chemistry Principles and Modern Applications by Ralph H. Petrucci.pdf" },
+        { title: "Quantitative Chemical Analysis", file: "content/2nd-semester/CHE109-engineering-chemistry-1/books/Vogels Textbook of Quantitative Chemical Analysis.pdf" },
+      ],
+      project: [],
+      resources: []
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // ---------------- 3rd Semester ----------------
   {
@@ -331,9 +501,48 @@ const COURSES = [
     name: "Database Systems",
     faculty: "Antu Chowdhury - ANTU",
     semester: "5th Semester",
+    outline: "content/5th-semester/CSE302-database-systems/resources/CSE302 Course Outline.pdf",
     term: "",
     description: "Relational model, SQL, normalization, transactions and database design.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1 DBMS Intro", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 1 DBMS Intro.pdf" },
+        { title: "Lecture 2 Architecture Schema", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 2 DBMS Architecture Schema.pdf" },
+        { title: "Lecture 3 Relational Model", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 3 Relational Model.pdf" },
+        { title: "Lecture 4 Relational Algebra", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 4 Relational Algebra.pdf" },
+        { title: "Lecture 5 Intermediate SQL", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 5 Intermediate SQL.pdf" },
+        { title: "Lecture 6 ERD", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 6 Entity Relationships Diagram.pdf" },
+        { title: "Lecture 7 ERD to Schema", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 7 ERD to Schema.pdf" },
+        { title: "Lecture 8 Functional Dependency", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 8 Functional Dependency.pdf" },
+        { title: "Lecture 9 Normalization", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 9 Normalization.pdf" },
+        { title: "Lecture 10 indexing", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 10 indexing.pdf" },
+        { title: "Lecture 11 Transaction", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 11 Transaction.pdf" },
+      ],
+      notes: [
+
+        { title: "Hand Note", file: "content/5th-semester/CSE302-database-systems/notes/CSE302 Hand Note.zip" },
+      ],
+      previousQuestions: [
+
+        { title: "Lab Final Set A", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Fall25 Set A.jpg" },
+        { title: "Lab Final Set B", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Fall25 Set B.jpg" },
+        { title: "Lab Final Set C", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set A.jpg" },
+        { title: "Lab Final Set D", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set B.jpg" },
+      ],
+      assignments: [
+        { title: "Assignment 1 Problem", file: "content/5th-semester/CSE302-database-systems/assignments/Lab 1.pdf" },
+        // E:\course-archive\content\5th-semester\CSE302-database-systems\assignments
+        { title: "Assignment 1 Solution", file: "content/5th-semester/CSE302-database-systems/assignments/2024-3-60-082_LAB01.pdf" },
+        { title: "Assignment 2 Problem", file: "content/5th-semester/CSE302-database-systems/assignments/Lab 2.pdf" },
+        { title: "Assignment 2 Solution", file: "content/5th-semester/CSE302-database-systems/assignments/2024-3-60-082_LAB02.pdf" },
+      ],
+      books: [],
+      project: [
+        { title: "Project Instruction", file: "content/5th-semester/CSE302-database-systems/project/Project.pdf" },
+        { title: "EWU Cafeteria System", file: "content/5th-semester/CSE302-database-systems/project/EWU-Cafeteria-System.zip" },
+      ],
+      resources: []
+    },
   },
   {
     code: "ECO7101",
@@ -378,9 +587,48 @@ const COURSES = [
     name: "Operating Systems",
     faculty: "Shatabdi Roy Moon - MOON",
     semester: "6th Semester",
-    term: "",
+    term: "Summer 2026",
+    outline: "content/6th-semester/CSE325-operating-systems/resources/CSE325 Course Outline.pdf",
     description: "Processes, scheduling, memory management, concurrency and file systems.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1 Introduction", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 1 Introduction.pdf" },
+        { title: "Lecture 2 Computing Environment", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 2 Computing Environment.pdf" },
+        { title: "Lecture 3 Structure", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 3 Structure.pdf" },
+        { title: "Lecture 4, 5 - Processes", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 4, 5 - Processes.pdf" },
+        { title: "Lecture 6 - Threads", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 6 - Threads.pdf" },
+        { title: "Lecture 7 - Scheduling", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 7 - Scheduling.pdf" },
+        { title: "Lecture 8 - IPC", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 8 - IPC.pdf" },
+        { title: "Lecture 9 - Deadlocks", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 9 - Deadlocks.pdf" },
+        { title: "Lecture 10 - Memory Management", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 10 - Memory Management.pdf" },
+        { title: "Lecture 11 - Virtual Memory", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 11 - Virtual Memory.pdf" },
+        { title: "Lecture 12 - Disk Scheduling Algorithm", file: "content/6th-semester/CSE325-operating-systems/slides/Lecture 12 - Disk Scheduling Algorithm.pdf" },
+        { title: "Lab - System Call Part A", file: "content/6th-semester/CSE325-operating-systems/slides/Lab-SystemCall_CSE325.pdf" },
+        { title: "Lab - System Call Part B", file: "content/6th-semester/CSE325-operating-systems/slides/Lab-SystemCall_PART-B.pdf" },
+      ],
+      notes: [
+        { title: "Hand Notes", file: "content/6th-semester/CSE325-operating-systems/notes/HandNotes.zip" },
+      ],
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/6th-semester/CSE325-operating-systems/previous-questions/Quiz1.JPG" },
+        { title: "Quiz 1", file: "content/6th-semester/CSE325-operating-systems/previous-questions/quiz1_sec5.jpg" },
+        { title: "Quiz 1", file: "content/6th-semester/CSE325-operating-systems/previous-questions/quiz_1sec_7.jpg" },
+        { title: "Quiz 2", file: "content/6th-semester/CSE325-operating-systems/previous-questions/quiz_2_sec_7.jpg" },
+        { title: "Quiz 2", file: "content/6th-semester/CSE325-operating-systems/previous-questions/quiz-2-sec-5.jpg" },
+        { title: "Mid", file: "content/6th-semester/CSE325-operating-systems/previous-questions/mid.pdf" },
+        { title: "Mid Front Page", file: "content/6th-semester/CSE325-operating-systems/previous-questions/mid_part1.jpg" },
+        { title: "Mid Back Page", file: "content/6th-semester/CSE325-operating-systems/previous-questions/mid_part2.jpg" },
+        { title: "Lab test", file: "content/6th-semester/CSE325-operating-systems/previous-questions/lab_test_1.jpg" },
+      ],
+      assignments: [],
+      books: [],
+      project: [
+        { title: "Exam Room Allocation System", file: "content/6th-semester/CSE325-operating-systems/project/CSE325 Project.zip" },
+      ],
+      resources: [
+
+      ]
+    },
   },
   {
     code: "CSE251",
@@ -443,3 +691,10 @@ function fileTypeLabel(ext) {
   if (!ext) return "FILE";
   return ext.toUpperCase();
 }
+
+
+/* ---- keep the footer's copyright year current automatically ---- */
+(function () {
+  const yearEl = document.querySelector(".site-footer__year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
