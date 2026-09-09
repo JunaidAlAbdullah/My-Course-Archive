@@ -711,7 +711,7 @@ const COURSES = [
     term: "",
     description: "History and socio-political emergence of Bangladesh.",
     categories: {
-      slides: [{ title: "Bengal under Afghan & Mughal Rule", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal under Afghn & Mughal Rule.pdf" },
+      slides: [{ title: "Bengal under Afghan & Mughal Rule", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal under Afghan & Mughal Rule.pdf" },
 
       { title: "Copy of History of Ancient Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Copy-of-History-of-Ancient-Bengal.pdf" },
 
