@@ -438,7 +438,7 @@ const COURSES = [
     faculty: "Dr. Muhammad Salah Uddin - DSU",
     semester: "3rd Semester",
     term: "Summer 2025",
-    outline:"content/3rd-semester/CSE110-object-oriented-programming/resources/CSE 110 CourseOutline.pdf",
+    outline: "content/3rd-semester/CSE110-object-oriented-programming/resources/CSE 110 CourseOutline.pdf",
     description: "OOP principles in C++/Java: classes, inheritance, polymorphism, encapsulation and exception handling.",
     categories: {
       slides: [
@@ -451,7 +451,7 @@ const COURSES = [
       ],
       notes: [],
       previousQuestions: [
-        
+
         { title: "Quiz 1", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz1.2.jpg" },
         { title: "Quiz 2", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz2.jpg" },
         { title: "Quiz 1", file: "content/3rd-semester/CSE110-object-oriented-programming/previous-questions/Quiz1.2.jpg" },
@@ -472,7 +472,7 @@ const COURSES = [
         { title: "Ticket Booking System", file: "content/3rd-semester/CSE110-object-oriented-programming/project/CSE110 Project.zip" },
       ],
       resources: [
-        
+
         { title: "Lab Works", file: "content/3rd-semester/CSE110-object-oriented-programming/resources/Lab Works.zip" },
       ]
     },
@@ -497,16 +497,17 @@ const COURSES = [
     faculty: "Dr. Md. Shahidul Islam - DSHI",
     semester: "3rd Semester",
     term: "Summer 2025",
-    outline:"content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/resources/MAT104 Course Outline.pdf.pdf",
+    outline: "content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/resources/MAT104 Course Outline.pdf.pdf",
     description: "Coordinate geometry in 2D/3D and vector calculus fundamentals.",
-    categories: { 
+    categories: {
       slides: [],
-      notes: [], 
+      notes: [],
       previousQuestions: [],
       assignments: [],
       books: [],
-      project: [], 
-      resources: [] },
+      project: [],
+      resources: []
+    },
   },
 
 
@@ -528,27 +529,27 @@ const COURSES = [
     faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "3rd Semester",
     term: "Summer 2025",
-    outline:"content/3rd-semester/PHY109-engineering-physics-1/resources/PHY109 Course Outline.pdf",
+    outline: "content/3rd-semester/PHY109-engineering-physics-1/resources/PHY109 Course Outline.pdf",
     description: "Mechanics, waves and thermodynamics for engineering students.",
-    categories: { 
-      slides: [], 
-      notes: [], 
+    categories: {
+      slides: [],
+      notes: [],
       previousQuestions: [
-        
+
         { title: "Quiz 1", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/Quiz1.pdf" },
         { title: "Quiz 2", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/Quiz 2.jpg" },
         { title: "Mid", file: "content/3rd-semester/PHY109-engineering-physics-1/previous-questions/mid.jpg" },
-      ], 
+      ],
       assignments: [
-        
+
         { title: "Assignment 2", file: "content/3rd-semester/PHY109-engineering-physics-1/assignments/Assignment 2.pdf" },
-      ], 
+      ],
       books: [
-        
+
         { title: "Fundamentals of Physics", file: "content/3rd-semester/PHY109-engineering-physics-1/books/Fundamentals of Physics, 11th Edition Extended.pdf" },
-      ], 
-      project: [], 
-      resources: [] 
+      ],
+      project: [],
+      resources: []
     },
   },
 
@@ -683,6 +684,24 @@ const COURSES = [
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   // ---------------- 6th Semester ----------------
   {
     code: "GEN7226",
@@ -691,7 +710,55 @@ const COURSES = [
     semester: "6th Semester",
     term: "",
     description: "History and socio-political emergence of Bangladesh.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [{ title: "Bengal under Afghan & Mughal Rule", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal under Afghn & Mughal Rule.pdf" },
+
+      { title: "Copy of History of Ancient Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Copy-of-History-of-Ancient-Bengal.pdf" },
+
+      { title: "Government of India Act 1935, Election 1937 and Bengal LA", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Government of India Act 1935, Election 1937 and Bengal LA.pdf" },
+
+      { title: "History of Medieval Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/History of Medieval Bengal.pdf" },
+
+      { title: "Pakistan and Language Movement 1952", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Pakistan and Language Movement 1952.pdf" },
+
+      { title: "Sepoy Mutiny Or Indian Rebellion in 1857", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Sepoy Mutiny Or Indian Rebellion in 1857.pdf" },
+
+      { title: "1954 United Front Election", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/1954 United Front Election.pdf" },
+
+      { title: "Bengal Renaissance", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal Renaissance.pdf" },
+
+      { title: "Proclamation of Independence", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Proclamation of Independence.pdf" },
+
+      { title: "Suhrawardy as PM of Pakistan", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Suhrawardy as PM of Pakistan.pdf" },
+
+      { title: "Yahya Khan Takes Over", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Yahya Khan Takes Over.pdf" },
+
+      { title: "Disparity, Six-Point Program and Movement for Autonomy", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Disparity, Six-Point Program and Movement for Autonomy.pdf" },
+
+      { title: "Military Crackdown on 25 March", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Military Crackdown on 25 March.pdf" },
+
+      { title: "Mujibnagar and Mukti Bahini", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Mujibnagar and Mukti Bahini.pdf" },],
+      notes: [],
+      previousQuestions: [
+        { title: "Quiz 1 Front Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1.JPG" },
+        { title: "Quiz 1 Back Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1 (2).JPG" },
+        { title: "Quiz 2 Front Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2.JPG" },
+        { title: "Quiz 2 Back Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2 (2).JPG" },
+        
+        
+        { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26(2).png" },
+        { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26.png" },
+        { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid summer26.JPG" },
+        { title: "Mid Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Spring26.png" },
+        { title: "Mid Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Spring26 (2).png" },
+        { title: "Final Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Final.jpg" },
+        { title: "Final Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Final Spring26.png" },
+      ],
+      assignments: [],
+      books: [],
+      project: [],
+      resources: []
+    },
   },
   {
     code: "PHY209",
