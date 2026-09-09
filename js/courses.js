@@ -711,41 +711,29 @@ const COURSES = [
     term: "",
     description: "History and socio-political emergence of Bangladesh.",
     categories: {
-      slides: [{ title: "Bengal under Afghan & Mughal Rule", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal under Afghan & Mughal Rule.pdf" },
-
-      { title: "Copy of History of Ancient Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Copy-of-History-of-Ancient-Bengal.pdf" },
-
-      { title: "Government of India Act 1935, Election 1937 and Bengal LA", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Government of India Act 1935, Election 1937 and Bengal LA.pdf" },
-
-      { title: "History of Medieval Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/History of Medieval Bengal.pdf" },
-
-      { title: "Pakistan and Language Movement 1952", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Pakistan and Language Movement 1952.pdf" },
-
-      { title: "Sepoy Mutiny Or Indian Rebellion in 1857", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Sepoy Mutiny Or Indian Rebellion in 1857.pdf" },
-
-      { title: "1954 United Front Election", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/1954 United Front Election.pdf" },
-
-      { title: "Bengal Renaissance", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal Renaissance.pdf" },
-
-      { title: "Proclamation of Independence", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Proclamation of Independence.pdf" },
-
-      { title: "Suhrawardy as PM of Pakistan", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Suhrawardy as PM of Pakistan.pdf" },
-
-      { title: "Yahya Khan Takes Over", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Yahya Khan Takes Over.pdf" },
-
-      { title: "Disparity, Six-Point Program and Movement for Autonomy", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Disparity, Six-Point Program and Movement for Autonomy.pdf" },
-
-      { title: "Military Crackdown on 25 March", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Military Crackdown on 25 March.pdf" },
-
-      { title: "Mujibnagar and Mukti Bahini", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Mujibnagar and Mukti Bahini.pdf" },],
+      slides: [
+        { title: "Bengal under Afghan & Mughal Rule", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal under Afghan & Mughal Rule.pdf" },
+        { title: "Copy of History of Ancient Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Copy-of-History-of-Ancient-Bengal.pdf" },
+        { title: "Government of India Act 1935, Election 1937 and Bengal LA", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Government of India Act 1935, Election 1937 and Bengal LA.pdf" },
+        { title: "History of Medieval Bengal", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/History of Medieval Bengal.pdf" },
+        { title: "Pakistan and Language Movement 1952", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Pakistan and Language Movement 1952.pdf" },
+        { title: "Sepoy Mutiny Or Indian Rebellion in 1857", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Sepoy Mutiny Or Indian Rebellion in 1857.pdf" },
+        { title: "1954 United Front Election", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/1954 United Front Election.pdf" },
+        { title: "Bengal Renaissance", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Bengal Renaissance.pdf" },
+        { title: "Proclamation of Independence", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Proclamation of Independence.pdf" },
+        { title: "Suhrawardy as PM of Pakistan", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Suhrawardy as PM of Pakistan.pdf" },
+        { title: "Yahya Khan Takes Over", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Yahya Khan Takes Over.pdf" },
+        { title: "Disparity, Six-Point Program and Movement for Autonomy", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Disparity, Six-Point Program and Movement for Autonomy.pdf" },
+        { title: "Military Crackdown on 25 March", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Military Crackdown on 25 March.pdf" },
+        { title: "Mujibnagar and Mukti Bahini", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/slides/Mujibnagar and Mukti Bahini.pdf" },],
       notes: [],
       previousQuestions: [
         { title: "Quiz 1 Front Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1.JPG" },
         { title: "Quiz 1 Back Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1 (2).JPG" },
         { title: "Quiz 2 Front Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2.JPG" },
         { title: "Quiz 2 Back Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2 (2).JPG" },
-        
-        
+
+
         { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26(2).png" },
         { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26.png" },
         { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid summer26.JPG" },
@@ -754,10 +742,17 @@ const COURSES = [
         { title: "Final Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Final.jpg" },
         { title: "Final Spring 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Final Spring26.png" },
       ],
-      assignments: [],
+      assignments: [
+        { title: "Historical Importance of the 7th March Speech of Bangabandhu Sheikh Mujibur Rahman", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/assignments/gen7226 assignment.pdf" },
+      ],
       books: [],
       project: [],
-      resources: []
+      resources: [
+        {
+          title: "Presentation - 7th March Speech",
+          file: "https://gengroupg.netlify.app/"
+        },
+      ]
     },
   },
   {
