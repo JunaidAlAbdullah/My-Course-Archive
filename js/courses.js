@@ -593,10 +593,77 @@ const COURSES = [
     name: "Statistics and Probability",
     faculty: "DR. AFSANA AL SHARMIN - AAS",
     semester: "4th Semester",
+    outline: "content/4th-semester/STA102-statistics-and-probability/resources/STA102 Course Outline.pdf",
     term: "",
     description: "Probability theory, distributions, estimation and hypothesis testing.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 1 - Introduction to Statistics.pdf" },
+        { title: "Lecture 2", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 2 - Summarization.pdf" },
+        { title: "Lecture 3", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 3 - Graphical Presentation.pdf" },
+        { title: "Lecture 4", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 4 - Measures of Central Tendencies.pdf" },
+        { title: "Lecture 5", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 5 - Correlation Coefficient.pdf" },
+        { title: "Lecture 6", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 6 - Regression.pdf" },
+        { title: "Lecture 7", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 7 - Probability.pdf" },
+        { title: "Lecture 8", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 8 - Probability Distribution.pdf" },
+        { title: "Lecture 9", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 9 - Test of hypothesis(Z-test, t test and Chi suare test).pdf" },
+        { title: "Lecture 10", file: "content/4th-semester/STA102-statistics-and-probability/slides/Lecture 10 - Stochastic process and queuing process.pdf" },
+        { title: "Standard Normal Distribution Table", file: "content/4th-semester/STA102-statistics-and-probability/slides/Standard Normal Distribution Table.pdf" },
+        { title: "T-Table", file: "content/4th-semester/STA102-statistics-and-probability/slides/t-table.pdf" },
+      ],
+      notes: [],
+      previousQuestions: [
+        { title: "Quiz 1 Summer 25 Front", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz (1).jpg" },
+        { title: "Quiz 1 Summer 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz (2).jpg" },
+        { title: "Quiz 1 Fall 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz 1 Fall25 (1).JPG" },
+        { title: "Quiz 1 Fall 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz 1 Fall25 (2).JPG" },
+        { title: "Quiz 2 Summer 25", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz2 Summer 25.jpg" },
+        { title: "Quiz 2 Fall 25", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Quiz 2 Fall25.JPG" },
+        { title: "Fall 25 Mid Sample Question", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Fall 2025 Mid Sample Question.pdf" },
+        { title: "Mid Fall 25 Front", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Mid Fall25 (2).JPG" },
+        { title: "Mid Fall 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Mid Fall25.JPG" },
+        { title: "Fall 25 Final Sample Question", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Final Sample Question.pdf" },
+        { title: "Final Fall 25 Front", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Final Fall25(1).JPG" },
+        { title: "Final Fall 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Final Fall25(2).JPG" },
+        { title: "Final Summer 25 Front", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Final Summer 25.jpg" },
+        { title: "Final Summer 25 Back", file: "content/4th-semester/STA102-statistics-and-probability/previous-questions/Final Summer 25 (2).jpg" },
+      ],
+      assignments: [
+        { title: "Assignment 1 Question", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 1 (Presentation) Question.pdf" },
+        { title: "Assignment 1 Solution", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 1 Junaid.pdf" },
+        { title: "Assignment 2 Question", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment -2 ( CENTRAL TENDENCY, DISPERSION, BOX PLOT) Question.pdf" },
+        { title: "Assignment 2 Solution", file: "content/4th-semester/STA102-statistics-and-probability/assignments/STA102 Assignment 2 Junaid.pdf" },
+        { title: "Assignment 3 Question", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 3 (Correlation and Regression).pdf" },
+        { title: "Assignment 3 Solution", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 3.pdf" },
+        { title: "Assignment 4 Question", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 4 (Probability).pdf" },
+        { title: "Assignment 4 Solution", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 4.pdf" },
+        { title: "Assignment 5 Question", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Stat Assignment (Hypothesis).pdf" },
+        { title: "Assignment 5 Solution", file: "content/4th-semester/STA102-statistics-and-probability/assignments/Assignment 5.pdf" },
+      ],
+      books: [],
+      project: [],
+      resources: [
+        { title: "Presentation Slide", file: "content/4th-semester/STA102-statistics-and-probability/resources/Group 5 STA102 Presentation Slide.pdf" },
+      ]
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CSE209",
     name: "Electrical Circuits",
