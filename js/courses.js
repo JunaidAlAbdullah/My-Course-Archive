@@ -752,6 +752,10 @@ const COURSES = [
           title: "Presentation - 7th March Speech",
           file: "https://gengroupg.netlify.app/"
         },
+        {
+          title: "Chapter Wise Note",
+          file: "https://gen7226.netlify.app/"
+        },
       ]
     },
   },
