@@ -839,6 +839,19 @@ const COURSES = [
       resources: []
     },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "ECO7101",
     name: "Principles of Microeconomics",
@@ -848,14 +861,83 @@ const COURSES = [
     description: "Supply and demand, market structures, and consumer/producer theory.",
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CSE207",
     name: "Data Structures",
     faculty: "Ahmed Abdal Shafi Rasel - AASR",
     semester: "5th Semester",
     term: "Spring 2026",
+    outline:"content/5th-semester/CSE207-data-structures/resources/CSE207 Course Outline.pdf",
     description: "Arrays, linked lists, stacks, queues, trees, graphs and their algorithms.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: { 
+      slides: [
+        { title: "Linked List", file: "content/5th-semester/CSE207-data-structures/slides/1.linked lists - v2.0.pdf" },
+        { title: "Stack", file: "content/5th-semester/CSE207-data-structures/slides/2.stack v2.0.pdf" },
+        { title: "Queue", file: "content/5th-semester/CSE207-data-structures/slides/3.Queue v2.0.pdf" },
+        { title: "Recursion", file: "content/5th-semester/CSE207-data-structures/slides/4.recursion - v2.0.pdf" },
+        { title: "Binary Tree", file: "content/5th-semester/CSE207-data-structures/slides/5. Binary Tree, Binary Search Tree (BST).pdf" },
+        { title: "AVL", file: "content/5th-semester/CSE207-data-structures/slides/6. AVL v2.0.pdf" },
+        { title: "Graph", file: "content/5th-semester/CSE207-data-structures/slides/7. Graph.pdf" },
+        { title: "Heap", file: "content/5th-semester/CSE207-data-structures/slides/8. HEAP.pdf" },
+        { title: "Hash Table", file: "content/5th-semester/CSE207-data-structures/slides/9. Hash Table v2.0.pdf" },
+        { title: "Hash Table V2", file: "content/5th-semester/CSE207-data-structures/slides/Lecture Note on Hash Table.pdf" },
+        { title: "Tree and Graph", file: "content/5th-semester/CSE207-data-structures/slides/Lecture Notes on Tree & Graph.pdf" },
+        
+      ], 
+      notes: [], 
+      previousQuestions: [
+        { title: "Lab Final", file: "content/5th-semester/CSE207-data-structures/previous-questions/Lab Final.jpeg" },
+        
+      ], 
+      assignments: [
+        { title: "Assignment 1", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment 1.pdf" },
+        { title: "Assignment Report", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment 1 Report.pdf" },
+        { title: "Assignment 1 Code Array List", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment1AL.cpp" },
+        { title: "Assignment 1 Code Linked List", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment1LL.cpp" },
+        { title: "Assignment 2", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment2.pdf" },
+      
+      ], 
+      books: [
+        { title: "DSA a psuedocode approach with C", file: "content/5th-semester/CSE207-data-structures/books/1. (TextBook) DSA a psuedocode approach with C by Forouzan.pdf" },
+        { title: "DSA by Alfred V. Aho", file: "content/5th-semester/CSE207-data-structures/books/12. DSA by Alfred V. Aho.pdf" },
+        { title: "Intro to Algo by Cormen", file: "content/5th-semester/CSE207-data-structures/books/3. Intro to Algo by Cormen - 4th Ed.pdf" },
+        { title: "Data Structures With C", file: "content/5th-semester/CSE207-data-structures/books/Data Structures With C - by Schaum Series_2.pdf" },
+        { title: "DSA by Granville Barnett", file: "content/5th-semester/CSE207-data-structures/books/DSA by Granville Barnett.pdf" },
+        { title: "DSA in C++ by Mark Allen Weiss", file: "content/5th-semester/CSE207-data-structures/books/DSA in C++ by Mark Allen Weiss.pdf" },
+        { title: "DSA made easy by Karumanchi", file: "content/5th-semester/CSE207-data-structures/books/DSA made easy by Karumanchi.pdf" },
+        { title: "Fundamentals of DSA by Horowitz", file: "content/5th-semester/CSE207-data-structures/booksFundamentals of DSA by Horowitz.pdf" },
+        { title: "Handbook of DSA by Mehta and Sahni", file: "content/5th-semester/CSE207-data-structures/books/Handbook of DSA by Mehta and Sahni.pdf" },
+        
+      ], 
+      project: [
+        { title: "To-Do List", file: "content/5th-semester/CSE207-data-structures/project/To-Do_List.cpp" },
+        
+      ], 
+      resources: [
+        { title: "Lab Manual 1", file: "content/5th-semester/CSE207-data-structures/resources/BST, Heap.pdf" },
+        { title: "Lab Manual 2", file: "content/5th-semester/CSE207-data-structures/resources/Linked List.pdf" },
+        { title: "Lab Manual 3", file: "content/5th-semester/CSE207-data-structures/resources/LL Assignment.pdf" },
+        { title: "Lab Manual 4", file: "content/5th-semester/CSE207-data-structures/resources/Queue.pdf" },
+        { title: "Lab Manual 5", file: "content/5th-semester/CSE207-data-structures/resources/Recursion.pdf" },
+        { title: "Lab Manual 6", file: "content/5th-semester/CSE207-data-structures/resources/Stack.pdf" },
+        { title: "Lab Manual 7", file: "content/5th-semester/CSE207-data-structures/resources/Tree, Graph.pdf" },
+        
+      ] },
   },
 
 
