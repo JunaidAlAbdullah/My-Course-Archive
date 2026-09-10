@@ -296,7 +296,7 @@ const COURSES = [
     name: "Differential Equations & Special Functions",
     faculty: "Md. Ashraf Hossain - ASHRAF",
     semester: "2nd Semester",
-    term: "Spring 2024",
+    term: "Spring 2025",
     outline: "content/2nd-semester/MAT102-differential-equations-and-special-functions/resources/MAT102 Course Outline.pdf",
     description: "Ordinary differential equations, series solutions and special functions.",
     categories: {
@@ -341,7 +341,7 @@ const COURSES = [
     name: "Composition and Communication Skills",
     faculty: "ANISA MEHEDI - ANISA",
     semester: "2nd Semester",
-    term: "Spring 2024",
+    term: "Spring 2025",
     outline: "content/2nd-semester/ENG102-composition-and-communication-skills/resources/ENG102 Course Outline.pdf",
     description: "Academic writing, composition structure and oral communication practice.",
     categories:
@@ -380,7 +380,7 @@ const COURSES = [
     name: "Engineering Chemistry-I",
     faculty: "Dr. Zubair Hasan - ZUH",
     semester: "2nd Semester",
-    term: "",
+    term: "Spring 2025",
     description: "Core chemistry concepts relevant to engineering practice.",
     categories: {
       slides: [
@@ -397,9 +397,9 @@ const COURSES = [
       ],
       notes: [],
       previousQuestions: [
-        { title: "Quiz 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Quiz 1.pdf" },
-        { title: "Mid", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Mid.pdf" },
-        { title: "Final", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitions/Lab Quiz.pdf" },
+        { title: "Quiz 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Quiz 1.pdf" },
+        { title: "Mid", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitons/Mid.pdf" },
+        { title: "Final", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Lab Quiz.pdf" },
 
       ],
       assignments: [],
@@ -502,7 +502,9 @@ const COURSES = [
     categories: {
       slides: [],
       notes: [],
-      previousQuestions: [],
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/previous-questions/Quiz1.jpg" },
+      ],
       assignments: [],
       books: [],
       project: [],
@@ -573,9 +575,26 @@ const COURSES = [
     name: "Linear Algebra & Complex Variables",
     faculty: "Dr. Md. Shariful Alam - SHARIF",
     semester: "4th Semester",
-    term: "",
+    term: "Fall 2025",
+    outline: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/resources/Course Outline.pdf",
     description: "Matrices, vector spaces, eigenvalues, and complex analysis basics.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [],
+      notes: [],
+      previousQuestions: [],
+      assignments: [
+        { title: "Assignment 1 Instructions", file: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/assignments/Assignment 1.pdf" },
+        { title: "Assignment 1 Solution", file: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/assignments/MAT205 Assignment 1 Solution.pdf" },
+        { title: "Assignment 2 Instructions", file: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/assignments/Assignment 2.pdf" },
+        { title: "Assignment 2 Solution", file: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/assignments/MAT205 Assignment 2 Solution.pdf" },
+
+      ],
+      books: [
+        { title: "Elementary Linear Algebra Applications", file: "content/4th-semester/MAT205-linear-algebra-and-complex-variables/books/Elementary-Linear-Algebra-Applications-Version-Howard-Anton-Chris-Rorres-Edition1-2013.pdf" },
+      ],
+      project: [],
+      resources: []
+    },
   },
 
 
@@ -594,7 +613,7 @@ const COURSES = [
     faculty: "DR. AFSANA AL SHARMIN - AAS",
     semester: "4th Semester",
     outline: "content/4th-semester/STA102-statistics-and-probability/resources/STA102 Course Outline.pdf",
-    term: "",
+    term: "Fall 2025",
     description: "Probability theory, distributions, estimation and hypothesis testing.",
     categories: {
       slides: [
@@ -669,19 +688,107 @@ const COURSES = [
     name: "Electrical Circuits",
     faculty: "Dr. Sayeed Mahmud Ullah - DSMU",
     semester: "4th Semester",
-    term: "",
+    term: "Fall 2025",
     description: "DC/AC circuit analysis, network theorems and transient response.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [
+        { title: "Lecture 1", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 1.pdf" },
+        { title: "Lecture 2", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 2.pdf" },
+        { title: "Lecture 3", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 3.pdf" },
+        { title: "Lecture 4", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 4.pdf" },
+        { title: "Lecture 5", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 5.pdf" },
+        { title: "Lecture 6", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 6.pdf" },
+        { title: "Lecture 7", file: "content/4th-semester/CSE209-electrical-circuits/slides/Lecture 7.pdf" },
+
+      ],
+      notes: [],
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Quiz 1.JPG" },
+        { title: "Quiz 2", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Quiz2.jpeg" },
+        { title: "Quiz 2", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Quiz2.JPG" },
+        { title: "Mid Fall25", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Mid Fall25.JPG" },
+        { title: "Mid Spring25", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Mid Spring25.jpg" },
+        { title: "Final Spring25", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Final Spring25.jpg" },
+        { title: "Final Fall25", file: "content/4th-semester/CSE209-electrical-circuits/previous-questions/Final Fall25.JPG" },
+
+      ],
+      assignments: [
+        { title: "Assignment", file: "content/4th-semester/CSE209-electrical-circuits/assignments/CSE209 Assignment.pdf" },
+      ],
+      books: [
+        { title: "Fundamental of Electric Circuits", file: "content/4th-semester/CSE209-electrical-circuits/books/Fundamentals of Electric Circuits.pdf" },
+
+      ],
+      project: [],
+      resources: []
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CSE200",
     name: "Computer-Aided Engineering Drawing",
     faculty: "Antu Chowdury - ANTU",
     semester: "4th Semester",
-    term: "",
+    term: "Fall 2025",
     description: "CAD fundamentals and technical drawing conventions.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: {
+      slides: [],
+      notes: [],
+      previousQuestions: [],
+      assignments: [
+        { title: "2024-3-60-082_Abdullah Al Junaid_LAB05 Diagonal Scale", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_Abdullah Al Junaid_LAB05 Diagonal Scale.pdf" },
+        { title: "2024-3-60-082_Abdullah Al Junaid_LAB05_Plain Scale", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_Abdullah Al Junaid_LAB05_Plain Scale.pdf" },
+        { title: "2024-3-60-082_LAB02", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_LAB02.pdf" },
+        { title: "2024-3-60-082_LAB03", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_LAB03.pdf" },
+        { title: "2024-3-60-082_LAB04", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_LAB04.pdf" },
+        { title: "2024-3-60-082_LAB04", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_LAB04.pdf" },
+        { title: "Assignment 1 combined", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1 combined.pdf" },
+        { title: "Assignment 1.2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1.2.dwg" },
+        { title: "Assignment 1.2I", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1.2I.pdf" },
+        { title: "Assignment 1", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1.bak" },
+        { title: "Assignment 1", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1.dwg" },
+        { title: "Assignment 1", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 1.pdf" },
+        { title: "Assignment 2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 2.bak" },
+        { title: "Assignment 2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 2.dwg" },
+        { title: "Assignment 2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 2.pdf" },
+        { title: "Assignment 3 Ela", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3 Ela.pdf" },
+        { title: "Assignment 3.2 Ela", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.2 Ela.pdf" },
+        { title: "Assignment 3.2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.2.bak" },
+        { title: "Assignment 3.2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.2.dwg" },
+        { title: "Assignment 3.2I", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.2I.pdf" },
+        { title: "Assignment 3", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.dwg" },
+        { title: "Assignment 3", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 3.pdf" },
+        { title: "Assignment 4.1", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 4.1.pdf" },
+        { title: "Assignment 4", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 4.dwg" },
+        { title: "Assignment 4", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/Assignment 4.pdf" },
+        { title: "AssignmentI", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/AssignmentI.pdf" },
+      ],
+      books: [],
+      project: [],
+      resources: []
+    },
   },
+
+
+
+
+
+
+
+
+
+
+
 
   // ---------------- 5th Semester ----------------
   {
@@ -690,7 +797,7 @@ const COURSES = [
     faculty: "Antu Chowdhury - ANTU",
     semester: "5th Semester",
     outline: "content/5th-semester/CSE302-database-systems/resources/CSE302 Course Outline.pdf",
-    term: "",
+    term: "Spring 2026",
     description: "Relational model, SQL, normalization, transactions and database design.",
     categories: {
       slides: [
@@ -737,7 +844,7 @@ const COURSES = [
     name: "Principles of Microeconomics",
     faculty: "DR. M. AMIR HUSSAIN - AMRH",
     semester: "5th Semester",
-    term: "",
+    term: "Spring 2026",
     description: "Supply and demand, market structures, and consumer/producer theory.",
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
@@ -746,7 +853,7 @@ const COURSES = [
     name: "Data Structures",
     faculty: "Ahmed Abdal Shafi Rasel - AASR",
     semester: "5th Semester",
-    term: "",
+    term: "Spring 2026",
     description: "Arrays, linked lists, stacks, queues, trees, graphs and their algorithms.",
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
@@ -775,7 +882,7 @@ const COURSES = [
     name: "Emergence of Bangladesh",
     faculty: "Md. Abdullah Al Hasan Chowdhury - MAAHC",
     semester: "6th Semester",
-    term: "",
+    term: "Summer 2026",
     description: "History and socio-political emergence of Bangladesh.",
     categories: {
       slides: [
@@ -831,7 +938,7 @@ const COURSES = [
     name: "Engineering Physics-II",
     faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "6th Semester",
-    term: "",
+    term: "Summer 2026",
     description: "Electromagnetism, optics and modern physics for engineers.",
     categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
   },
