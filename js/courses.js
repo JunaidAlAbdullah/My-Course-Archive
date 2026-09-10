@@ -858,8 +858,39 @@ const COURSES = [
     faculty: "DR. M. AMIR HUSSAIN - AMRH",
     semester: "5th Semester",
     term: "Spring 2026",
+    outline:"content/5th-semester/ECO7101-principles-of-microeconomics/resources/ECO7101 Course Outline.pdf",
     description: "Supply and demand, market structures, and consumer/producer theory.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: { 
+      slides: [
+        { title: "Handout 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 1.pdf" },
+        { title: "Handout 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 2.pdf" },
+        { title: "Handout 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 3.pdf" },
+        { title: "Handout 4", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 4.pdf" },
+        { title: "Handout 5", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 5.pdf" },
+        { title: "Handout 6", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 6.pdf" },
+        { title: "Handout 7", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 7.pdf" },
+        { title: "Handout 8", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 8.pdf" },
+        { title: "Handout 9", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 9.pdf" },
+        { title: "Handout 10", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 10.pdf" },
+        { title: "Sample Questions for Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for Mid2.pdf" },
+        { title: "Sample Questions for Mid 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for quiz3.pdf" },
+        
+      ], 
+      notes: [], 
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 1.jpg" },
+        { title: "Quiz 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 2.jpg" },
+        { title: "Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 3.jpg" },
+        { title: "Mid 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Mid 1.JPG" },
+        
+      ], 
+      assignments: [], 
+      books: [
+        { title: "Economics - Roger Arnold", file: "content/5th-semester/ECO7101-principles-of-microeconomics/books/Economics - Roger Arnold - 13th Edition.pdf" },
+        
+      ], 
+      project: [], 
+      resources: [] },
   },
 
 
