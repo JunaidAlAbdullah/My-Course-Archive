@@ -858,9 +858,9 @@ const COURSES = [
     faculty: "DR. M. AMIR HUSSAIN - AMRH",
     semester: "5th Semester",
     term: "Spring 2026",
-    outline:"content/5th-semester/ECO7101-principles-of-microeconomics/resources/ECO7101 Course Outline.pdf",
+    outline: "content/5th-semester/ECO7101-principles-of-microeconomics/resources/ECO7101 Course Outline.pdf",
     description: "Supply and demand, market structures, and consumer/producer theory.",
-    categories: { 
+    categories: {
       slides: [
         { title: "Handout 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 1.pdf" },
         { title: "Handout 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 2.pdf" },
@@ -874,23 +874,24 @@ const COURSES = [
         { title: "Handout 10", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 10.pdf" },
         { title: "Sample Questions for Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for Mid2.pdf" },
         { title: "Sample Questions for Mid 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for quiz3.pdf" },
-        
-      ], 
-      notes: [], 
+
+      ],
+      notes: [],
       previousQuestions: [
         { title: "Quiz 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 1.jpg" },
         { title: "Quiz 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 2.jpg" },
         { title: "Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Quiz 3.jpg" },
         { title: "Mid 1", file: "content/5th-semester/ECO7101-principles-of-microeconomics/previous-questions/Mid 1.JPG" },
-        
-      ], 
-      assignments: [], 
+
+      ],
+      assignments: [],
       books: [
         { title: "Economics - Roger Arnold", file: "content/5th-semester/ECO7101-principles-of-microeconomics/books/Economics - Roger Arnold - 13th Edition.pdf" },
-        
-      ], 
-      project: [], 
-      resources: [] },
+
+      ],
+      project: [],
+      resources: []
+    },
   },
 
 
@@ -913,9 +914,9 @@ const COURSES = [
     faculty: "Ahmed Abdal Shafi Rasel - AASR",
     semester: "5th Semester",
     term: "Spring 2026",
-    outline:"content/5th-semester/CSE207-data-structures/resources/CSE207 Course Outline.pdf",
+    outline: "content/5th-semester/CSE207-data-structures/resources/CSE207 Course Outline.pdf",
     description: "Arrays, linked lists, stacks, queues, trees, graphs and their algorithms.",
-    categories: { 
+    categories: {
       slides: [
         { title: "Linked List", file: "content/5th-semester/CSE207-data-structures/slides/1.linked lists - v2.0.pdf" },
         { title: "Stack", file: "content/5th-semester/CSE207-data-structures/slides/2.stack v2.0.pdf" },
@@ -928,21 +929,21 @@ const COURSES = [
         { title: "Hash Table", file: "content/5th-semester/CSE207-data-structures/slides/9. Hash Table v2.0.pdf" },
         { title: "Hash Table V2", file: "content/5th-semester/CSE207-data-structures/slides/Lecture Note on Hash Table.pdf" },
         { title: "Tree and Graph", file: "content/5th-semester/CSE207-data-structures/slides/Lecture Notes on Tree & Graph.pdf" },
-        
-      ], 
-      notes: [], 
+
+      ],
+      notes: [],
       previousQuestions: [
         { title: "Lab Final", file: "content/5th-semester/CSE207-data-structures/previous-questions/Lab Final.jpeg" },
-        
-      ], 
+
+      ],
       assignments: [
         { title: "Assignment 1", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment 1.pdf" },
         { title: "Assignment Report", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment 1 Report.pdf" },
         { title: "Assignment 1 Code Array List", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment1AL.cpp" },
         { title: "Assignment 1 Code Linked List", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment1LL.cpp" },
         { title: "Assignment 2", file: "content/5th-semester/CSE207-data-structures/assignments/Assignment2.pdf" },
-      
-      ], 
+
+      ],
       books: [
         { title: "DSA a psuedocode approach with C", file: "content/5th-semester/CSE207-data-structures/books/1. (TextBook) DSA a psuedocode approach with C by Forouzan.pdf" },
         { title: "DSA by Alfred V. Aho", file: "content/5th-semester/CSE207-data-structures/books/12. DSA by Alfred V. Aho.pdf" },
@@ -953,12 +954,12 @@ const COURSES = [
         { title: "DSA made easy by Karumanchi", file: "content/5th-semester/CSE207-data-structures/books/DSA made easy by Karumanchi.pdf" },
         { title: "Fundamentals of DSA by Horowitz", file: "content/5th-semester/CSE207-data-structures/booksFundamentals of DSA by Horowitz.pdf" },
         { title: "Handbook of DSA by Mehta and Sahni", file: "content/5th-semester/CSE207-data-structures/books/Handbook of DSA by Mehta and Sahni.pdf" },
-        
-      ], 
+
+      ],
       project: [
         { title: "To-Do List", file: "content/5th-semester/CSE207-data-structures/project/To-Do_List.cpp" },
-        
-      ], 
+
+      ],
       resources: [
         { title: "Lab Manual 1", file: "content/5th-semester/CSE207-data-structures/resources/BST, Heap.pdf" },
         { title: "Lab Manual 2", file: "content/5th-semester/CSE207-data-structures/resources/Linked List.pdf" },
@@ -967,8 +968,9 @@ const COURSES = [
         { title: "Lab Manual 5", file: "content/5th-semester/CSE207-data-structures/resources/Recursion.pdf" },
         { title: "Lab Manual 6", file: "content/5th-semester/CSE207-data-structures/resources/Stack.pdf" },
         { title: "Lab Manual 7", file: "content/5th-semester/CSE207-data-structures/resources/Tree, Graph.pdf" },
-        
-      ] },
+
+      ]
+    },
   },
 
 
@@ -1046,15 +1048,69 @@ const COURSES = [
       ]
     },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "PHY209",
     name: "Engineering Physics-II",
     faculty: "Md. Mahfuzul Haque - MMHQ",
     semester: "6th Semester",
     term: "Summer 2026",
+    outline: "content/6th-semester/PHY209-engineering-physics-2/resources/Course outline of PHY 209_Summer2026_MMHQ.pdf",
     description: "Electromagnetism, optics and modern physics for engineers.",
-    categories: { slides: [], notes: [], previousQuestions: [], assignments: [], books: [], project: [], resources: [] },
+    categories: { 
+      slides: [], 
+      notes: [], 
+      previousQuestions: [
+        { title: "Quiz 1", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/quiz 1.jpg" },
+        { title: "Quiz 2", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Quiz 2 (2).jpg" },
+        { title: "Quiz 2", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Quiz 2 Summer 26.jpg" },
+        { title: "Quiz 2", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/quiz 2.jpg" },
+        { title: "Quiz 3", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Quiz 3 Summer 26.jpg" },
+        { title: "Quiz 3", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Quiz 3 Summer 26 (2).jpg" },
+        { title: "Mid", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/mid (2).jpg" },
+        { title: "Mid", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/mid Spring26.jpg" },
+        { title: "Mid", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Midsummer26.JPG" },
+        { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final Summer26S3.JPG" },
+        { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final summer26 S2.jpg" },
+        { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final Summer25.jpg" },
+        
+      ], 
+      assignments: [
+        { title: "Assignment Instructions", file: "content/6th-semester/PHY209-engineering-physics-2/assignments/Assignment.pdf" },
+        { title: "Assignment Solution", file: "content/6th-semester/PHY209-engineering-physics-2/assignments/PHY209 Assignment 2024-3-60-082.pdf" },
+        
+      ], 
+      books: [
+        { title: "Concepts of Modern Physics", file: "content/6th-semester/PHY209-engineering-physics-2/books/Arthur Beiser - Concepts of Modern Physics (2003, McGraw Hill) - libgen.li.pdf" },
+        { title: "Quantum Mechanics Concepts and Applications", file: "content/6th-semester/PHY209-engineering-physics-2/books/Nouredine Zettili - Quantum Mechanics_ Concepts and Applications-Wiley (2009).pdf" },
+        { title: "Chapter 1 notes", file: "content/6th-semester/PHY209-engineering-physics-2/books/phy209-chapter1.pdf" },
+        { title: "Solutions of the Exercise Problems of Chapter 2", file: "content/6th-semester/PHY209-engineering-physics-2/books/Solutions of the Exercise Problems of Chapter 2.pdf" },
+        { title: "Important Facts of Photoelectric Effect", file: "content/6th-semester/PHY209-engineering-physics-2/books/Important Facts of Photoelectric Effect.pdf" },
+      ], 
+      project: [], 
+      resources: [] },
   },
+
+
+
+
+
+
+
+
+
+
+
   {
     code: "CSE325",
     name: "Operating Systems",
