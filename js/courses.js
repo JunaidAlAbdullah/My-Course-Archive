@@ -1065,9 +1065,9 @@ const COURSES = [
     term: "Summer 2026",
     outline: "content/6th-semester/PHY209-engineering-physics-2/resources/Course outline of PHY 209_Summer2026_MMHQ.pdf",
     description: "Electromagnetism, optics and modern physics for engineers.",
-    categories: { 
-      slides: [], 
-      notes: [], 
+    categories: {
+      slides: [],
+      notes: [],
       previousQuestions: [
         { title: "Quiz 1", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/quiz 1.jpg" },
         { title: "Quiz 2", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Quiz 2 (2).jpg" },
@@ -1081,22 +1081,23 @@ const COURSES = [
         { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final Summer26S3.JPG" },
         { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final summer26 S2.jpg" },
         { title: "Final", file: "content/6th-semester/PHY209-engineering-physics-2/previous-questions/Final Summer25.jpg" },
-        
-      ], 
+
+      ],
       assignments: [
         { title: "Assignment Instructions", file: "content/6th-semester/PHY209-engineering-physics-2/assignments/Assignment.pdf" },
         { title: "Assignment Solution", file: "content/6th-semester/PHY209-engineering-physics-2/assignments/PHY209 Assignment 2024-3-60-082.pdf" },
-        
-      ], 
+
+      ],
       books: [
         { title: "Concepts of Modern Physics", file: "content/6th-semester/PHY209-engineering-physics-2/books/Arthur Beiser - Concepts of Modern Physics (2003, McGraw Hill) - libgen.li.pdf" },
         { title: "Quantum Mechanics Concepts and Applications", file: "content/6th-semester/PHY209-engineering-physics-2/books/Nouredine Zettili - Quantum Mechanics_ Concepts and Applications-Wiley (2009).pdf" },
         { title: "Chapter 1 notes", file: "content/6th-semester/PHY209-engineering-physics-2/books/phy209-chapter1.pdf" },
         { title: "Solutions of the Exercise Problems of Chapter 2", file: "content/6th-semester/PHY209-engineering-physics-2/books/Solutions of the Exercise Problems of Chapter 2.pdf" },
         { title: "Important Facts of Photoelectric Effect", file: "content/6th-semester/PHY209-engineering-physics-2/books/Important Facts of Photoelectric Effect.pdf" },
-      ], 
-      project: [], 
-      resources: [] },
+      ],
+      project: [],
+      resources: []
+    },
   },
 
 
@@ -1168,7 +1169,7 @@ const COURSES = [
 
 
 
-  
+
 
 
 
@@ -1188,8 +1189,26 @@ const COURSES = [
     outline: "content/6th-semester/CSE251-electronic-circuits/resources/course-outline.pdf",
     categories: {
       slides: [
-        { title: "Lecture Slides (MHR, full set)", file: "content/6th-semester/CSE251-electronic-circuits/slides/cse251-lecture-slides.pdf" },
-        { title: "Midterm Slides", file: "content/6th-semester/CSE251-electronic-circuits/slides/cse251-midterm-slides.pdf" },
+        { title: "1. Basics for Electronics", file: "content/6th-semester/CSE251-electronic-circuits/slides/1-Chapter-Basics-for-Electronics-corr-2.pdf" },
+        { title: "2. Semiconductor and PN-Junction Diode", file: "content/6th-semester/CSE251-electronic-circuits/slides/2-Semiconductor and PN-Junction-Diode - Corr.pdf" },
+        { title: "3. Diode Applications", file: "content/6th-semester/CSE251-electronic-circuits/slides/3-Chapter-Diode-Applications-corr.pdf" },
+        { title: "4. Bipolar Junction Transistors (BJT)", file: "content/6th-semester/CSE251-electronic-circuits/slides/4-Chapter_Bipolar-Junction-Transistors (BJT).pdf" },
+        { title: "5. BJT Biasing Circuits", file: "content/6th-semester/CSE251-electronic-circuits/slides/5-Chapter_BJT-Biasing-Circuits.pdf" },
+        { title: "6. Transistor Equivalent Circuits and AC Analysis", file: "content/6th-semester/CSE251-electronic-circuits/slides/6-Chapter_Trasistor-Equivalent-Circuits-and-AC-Analysis.pdf" },
+        { title: "7. Field Effect Transistors", file: "content/6th-semester/CSE251-electronic-circuits/slides/7-Chapter_Field-Effect-Tansistors.pdf" },
+        { title: "8. FET Biasing Circuits", file: "content/6th-semester/CSE251-electronic-circuits/slides/8-Chapter_FET-Biasing-Circuits.pdf" },
+        { title: "9. FET Equivalent Circuits and AC Analysis", file: "content/6th-semester/CSE251-electronic-circuits/slides/9-Chapater-FET-Equivalent-Circuits-and-AC-Analysis.pdf" },
+        { title: "10. Single-Stage Small-Signal Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/10-Chapter-Single-Stage-Small-Signal-Amplifiers.pdf" },
+        { title: "11. Frequency Response of Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/11-Chapter-Frequency Response of Amplifiers.pdf" },
+        { title: "12. Multi-Stage Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/12-Chapter-Multi-stage-Amplifiers.pdf" },
+        { title: "13. Feedback in Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/13-Chapter-Feedback-in-Amplifiers.pdf" },
+        { title: "14. Operational Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/14-Chapter-Operational-Amplifiers.pdf" },
+        { title: "15. Power Amplifiers", file: "content/6th-semester/CSE251-electronic-circuits/slides/15-Chapter-Power-Aplifiers.pdf" },
+        { title: "16. Oscillators", file: "content/6th-semester/CSE251-electronic-circuits/slides/16-Chapter-Oscilattors.pdf" },
+        { title: "17. Broad-Band Amplifier", file: "content/6th-semester/CSE251-electronic-circuits/slides/17-Chapter-broad-band-amplifier-2.pdf" },
+        { title: "18. Voltage Regulators", file: "content/6th-semester/CSE251-electronic-circuits/slides/18-Chapter-18-Voltage-Regulators.pdf" },
+        { title: "19. Multivibrators", file: "content/6th-semester/CSE251-electronic-circuits/slides/19-Chapter-Multivibrators.pdf" },
+        { title: "20. Integrated Circuits (ICs)", file: "content/6th-semester/CSE251-electronic-circuits/slides/20-Chapter-Integrated-Circuits-ICs.pdf" },
       ],
       notes: [
         { title: "Notes (by Mahathir)", file: "content/6th-semester/CSE251-electronic-circuits/notes/cse251-notes-mahathir.pdf" },
