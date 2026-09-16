@@ -23,6 +23,7 @@ const SEMESTER_ORDER = [
   "4th Semester",
   "5th Semester",
   "6th Semester",
+  "7th Semester",
 ];
 
 const SEMESTER_COLORS = {
@@ -32,6 +33,7 @@ const SEMESTER_COLORS = {
   "4th Semester": "green",
   "5th Semester": "red",
   "6th Semester": "pink",
+  "7th Semester": "yellow",
 };
 
 /* ---- Category display config: label + colour badge ----
@@ -1233,7 +1235,7 @@ const COURSES = [
       books: [],
       project: [
         { title: "Project Report", file: "content/6th-semester/CSE251-electronic-circuits/project/Project Report CSE251.pdf" },
-      
+
       ],
       labReports: [
         { title: "Lab Reports 1", file: "content/6th-semester/CSE251-electronic-circuits/resources/Lab Report 1.pdf" },
@@ -1245,6 +1247,35 @@ const COURSES = [
         { title: "Lab Reports 7", file: "content/6th-semester/CSE251-electronic-circuits/resources/Lab Report 7.pdf" },
         { title: "Lab Reports 8", file: "content/6th-semester/CSE251-electronic-circuits/resources/Lab Report 8.pdf" },
       ],
+      resources: [],
+    },
+  },
+
+
+
+
+
+
+
+
+  {
+    code: "CSE246",
+    name: "Algorithms",
+    faculty: "K.M. Shafin Kamal - KMSK",
+    semester: "7th Semester",
+    term: "Spring 2025",
+    outline:"content/7th-semester/CSE246-Algorithms/resources/CSE246 CourseOutline.pdf",
+    description: "Short one-line description.",
+    categories: {
+      slides: [],
+      notes: [],
+      previousQuestions: [],
+      assignments: [],
+      books: [
+        { title: "Introduction to Algorithms", file: "content/7th-semester/CSE246-Algorithms/books/Introduction_to_algorithms-3rd Edition.pdf" },
+        
+      ],
+      project: [],
       resources: [],
     },
   },
