@@ -1265,14 +1265,28 @@ const COURSES = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
+
+  // ---------------- 7th Semester ----------------
+
   {
     code: "CSE246",
     name: "Algorithms",
     faculty: "K.M. Shafin Kamal - KMSK",
     semester: "7th Semester",
-    term: "Spring 2025",
+    term: "Fall 2026",
     outline:"content/7th-semester/CSE246-Algorithms/resources/CSE246 CourseOutline.pdf",
-    description: "Short one-line description.",
+    description: "Algorithm design, complexity analysis, sorting, searching, graph algorithms and dynamic programming.",
     categories: {
       slides: [],
       notes: [],
@@ -1282,6 +1296,77 @@ const COURSES = [
         { title: "Introduction to Algorithms", file: "content/7th-semester/CSE246-Algorithms/books/Introduction_to_algorithms-3rd Edition.pdf" },
         
       ],
+      project: [],
+      resources: [],
+    },
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    code: "CSE360",
+    name: "Computer Architecture",
+    faculty: "Dr. Md. Nawab Yousuf Ali - NYA",
+    semester: "7th Semester",
+    term: "Fall 2026",
+    outline:"content/7th-semester/CSE360-Computer-Architecture/resources/CSE360 CourseOutline.pdf",
+    description: "CPU organization, instruction sets, memory hierarchy, pipelining and I/O systems.",
+    categories: {
+      slides: [],
+      notes: [],
+      previousQuestions: [],
+      assignments: [],
+      books: [],
+      project: [],
+      resources: [],
+    },
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    {
+    code: "CSE360",
+    name: "Computer Architecture",
+    faculty: "Dr. Md. Farijul Islam - DMFI",
+    semester: "7th Semester",
+    term: "Fall 2026",
+    outline:"content/7th-semester/BUS7231-Business-Communication/resources/BUS7321 CourseOutline.pdf",
+    description: "Professional writing, presentations, workplace communication, business correspondence and communication strategies.",
+    categories: {
+      slides: [],
+      notes: [],
+      previousQuestions: [],
+      assignments: [],
+      books: [],
       project: [],
       resources: [],
     },
