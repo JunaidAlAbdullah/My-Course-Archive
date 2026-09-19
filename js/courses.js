@@ -1288,7 +1288,11 @@ const COURSES = [
     outline:"content/7th-semester/CSE246-Algorithms/resources/CSE246 CourseOutline.pdf",
     description: "Algorithm design, complexity analysis, sorting, searching, graph algorithms and dynamic programming.",
     categories: {
-      slides: [],
+      slides: [
+        { title: "Lecture 1 The role of algorithms in computing", file: "content/7th-semester/CSE246-Algorithms/slides/1_The Role of Algorithms in Computing.pdf" },
+        { title: "Lecture 2 Searching Algorithms", file: "content/7th-semester/CSE246-Algorithms/slides/2_Searching Algorithms CSE 246.pdf" },
+        
+      ],
       notes: [],
       previousQuestions: [],
       assignments: [],
