@@ -722,7 +722,14 @@ const COURSES = [
 
       ],
       project: [],
-      resources: []
+      resources: [],
+      labReports: [
+        { title: "Verification of Ohm’s Law", file: "content/4th-semester/CSE209-electrical-circuits/resources/Verification of Ohm’s Law.pdf" },
+        { title: "Verification of Kirchoff’s Law.pdf", file: "content/4th-semester/CSE209-electrical-circuits/resources/Verification of Kirchoff’s Law.pdf" },
+        { title: "Study RC circuit for transient response", file: "content/4th-semester/CSE209-electrical-circuits/resources/Study RC circuit for transient response.pdf" },
+        { title: "Verification of Thevenin’s Theorem", file: "content/4th-semester/CSE209-electrical-circuits/resources/Verification of Thevenin’s Theorem.pdf" },
+        
+      ]
     },
   },
 
