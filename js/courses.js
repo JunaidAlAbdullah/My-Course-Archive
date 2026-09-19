@@ -728,7 +728,7 @@ const COURSES = [
         { title: "Verification of Kirchoff’s Law.pdf", file: "content/4th-semester/CSE209-electrical-circuits/resources/Verification of Kirchoff’s Law.pdf" },
         { title: "Study RC circuit for transient response", file: "content/4th-semester/CSE209-electrical-circuits/resources/Study RC circuit for transient response.pdf" },
         { title: "Verification of Thevenin’s Theorem", file: "content/4th-semester/CSE209-electrical-circuits/resources/Verification of Thevenin’s Theorem.pdf" },
-        
+
       ]
     },
   },
@@ -1275,7 +1275,7 @@ const COURSES = [
 
 
 
-  
+
 
   // ---------------- 7th Semester ----------------
 
@@ -1285,20 +1285,20 @@ const COURSES = [
     faculty: "K.M. Shafin Kamal - KMSK",
     semester: "7th Semester",
     term: "Fall 2026",
-    outline:"content/7th-semester/CSE246-Algorithms/resources/CSE246 CourseOutline.pdf",
+    outline: "content/7th-semester/CSE246-Algorithms/resources/CSE246 CourseOutline.pdf",
     description: "Algorithm design, complexity analysis, sorting, searching, graph algorithms and dynamic programming.",
     categories: {
       slides: [
         { title: "Lecture 1 The role of algorithms in computing", file: "content/7th-semester/CSE246-Algorithms/slides/1_The Role of Algorithms in Computing.pdf" },
         { title: "Lecture 2 Searching Algorithms", file: "content/7th-semester/CSE246-Algorithms/slides/2_Searching Algorithms CSE 246.pdf" },
-        
+
       ],
       notes: [],
       previousQuestions: [],
       assignments: [],
       books: [
         { title: "Introduction to Algorithms", file: "content/7th-semester/CSE246-Algorithms/books/Introduction_to_algorithms-3rd Edition.pdf" },
-        
+
       ],
       project: [],
       resources: [],
@@ -1322,13 +1322,13 @@ const COURSES = [
 
 
 
-    {
+  {
     code: "CSE360",
     name: "Computer Architecture",
     faculty: "Dr. Md. Nawab Yousuf Ali - NYA",
     semester: "7th Semester",
     term: "Fall 2026",
-    outline:"content/7th-semester/CSE360-Computer-Architecture/resources/CSE360 CourseOutline.pdf",
+    outline: "content/7th-semester/CSE360-Computer-Architecture/resources/CSE360 CourseOutline.pdf",
     description: "CPU organization, instruction sets, memory hierarchy, pipelining and I/O systems.",
     categories: {
       slides: [],
@@ -1356,14 +1356,14 @@ const COURSES = [
 
 
 
-  
-    {
-    code: "CSE360",
-    name: "Computer Architecture",
+
+  {
+    code: "BUS7231",
+    name: "Business Communication",
     faculty: "Dr. Md. Farijul Islam - DMFI",
     semester: "7th Semester",
     term: "Fall 2026",
-    outline:"content/7th-semester/BUS7231-Business-Communication/resources/BUS7321 CourseOutline.pdf",
+    outline: "content/7th-semester/BUS7231-Business-Communication/resources/BUS7321 CourseOutline.pdf",
     description: "Professional writing, presentations, workplace communication, business correspondence and communication strategies.",
     categories: {
       slides: [],
