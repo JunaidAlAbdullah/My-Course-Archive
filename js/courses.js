@@ -1028,7 +1028,7 @@ const COURSES = [
       previousQuestions: [
         { title: "Quiz 1 Front Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1.JPG" },
         { title: "Quiz 1 Back Summer26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 1 (2).JPG" },
-        { title: "Quiz 2 Front Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2.JPG" },
+        { title: "Quiz 2 Front Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2.jpg" },
         { title: "Quiz 2 Back Spring26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Quiz 2 (2).jpg" },
         { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26(2).png" },
         { title: "Mid Summer 26", file: "content/6th-semester/GEN7226-emergence-of-bangladesh/previous-questions/Mid Summer26.png" },
