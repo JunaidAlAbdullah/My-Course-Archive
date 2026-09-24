@@ -749,11 +749,29 @@ const COURSES = [
     faculty: "Antu Chowdury - ANTU",
     semester: "4th Semester",
     term: "Fall 2025",
+    outline:"content/4th-semester/CSE200-computer-aided-engineering-drawing/resources/CSE200 Course Outline.pdf",
     description: "CAD fundamentals and technical drawing conventions.",
     categories: {
-      slides: [],
+      slides: [
+        { title: "Lab 2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 2.pdf" },
+        { title: "Lab 3", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 3.pdf" },
+        { title: "Lab 3.2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 3.webp.pdf" },
+        { title: "Lab 4", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 4.pdf" },
+        { title: "Lab 5", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 5.pdf" },
+        { title: "Lab 6", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 6.pdf" },
+        { title: "Lab 7", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 7.pdf" },
+        { title: "Lab 8", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 8.pdf" },
+        { title: "Lab 8.1", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 8.1.pdf" },
+        { title: "Lab 8.2", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/slides/Lab 8.2.pdf" },
+      ],
       notes: [],
-      previousQuestions: [],
+      previousQuestions: [
+        { title: "Quiz Front", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/previous-questions/Quiz Front.JPG" },
+        { title: "Quiz Front", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/previous-questions/Quiz Back.JPG" },
+        { title: "Mid", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/previous-questions/Mid.JPG" },
+        { title: "Final Front", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/previous-questions/Final Front.JPG" },
+        { title: "Final Back", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/previous-questions/Final Back.JPG" },
+      ],
       assignments: [
         { title: "2024-3-60-082_Abdullah Al Junaid_LAB05 Diagonal Scale", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_Abdullah Al Junaid_LAB05 Diagonal Scale.pdf" },
         { title: "2024-3-60-082_Abdullah Al Junaid_LAB05_Plain Scale", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/2024-3-60-082_Abdullah Al Junaid_LAB05_Plain Scale.pdf" },
@@ -783,7 +801,9 @@ const COURSES = [
         { title: "AssignmentI", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/assignments/AssignmentI.pdf" },
       ],
       books: [],
-      project: [],
+      project: [
+        { title: "3D Drone", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/project/CSE200 Project 3D Drone.zip" },
+      ],
       resources: []
     },
   },
