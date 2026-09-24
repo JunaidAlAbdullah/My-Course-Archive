@@ -902,8 +902,8 @@ const COURSES = [
         { title: "Handout 8", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 8.pdf" },
         { title: "Handout 9", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 9.pdf" },
         { title: "Handout 10", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/Handout 10.pdf" },
-        { title: "Sample Questions for Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for Mid2.pdf" },
-        { title: "Sample Questions for Mid 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for quiz3.pdf" },
+        { title: "Sample Questions for Mid 2", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for Mid2.pdf" },
+        { title: "Sample Questions for Quiz 3", file: "content/5th-semester/ECO7101-principles-of-microeconomics/slides/ECO7101 Sample questions for quiz3.pdf" },
 
       ],
       notes: [],
