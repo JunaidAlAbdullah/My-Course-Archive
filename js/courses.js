@@ -802,6 +802,7 @@ const COURSES = [
       ],
       books: [],
       project: [
+        { title: "Project List", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/project/Project List.pdf" },
         { title: "3D Drone", file: "content/4th-semester/CSE200-computer-aided-engineering-drawing/project/CSE200 Project 3D Drone.zip" },
       ],
       resources: []
