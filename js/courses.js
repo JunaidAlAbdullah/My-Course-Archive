@@ -499,7 +499,7 @@ const COURSES = [
     faculty: "Dr. Md. Shahidul Islam - DSHI",
     semester: "3rd Semester",
     term: "Summer 2025",
-    outline: "content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/resources/MAT104 Course Outline.pdf.pdf",
+    outline: "content/3rd-semester/MAT104-coordinate-geometry-and-vector-analysis/resources/MAT104 Course Outline.pdf",
     description: "Coordinate geometry in 2D/3D and vector calculus fundamentals.",
     categories: {
       slides: [],
