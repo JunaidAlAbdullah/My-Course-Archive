@@ -90,14 +90,14 @@ const COURSES = [
         { title: "Lecture 2(b) Continuity", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 2(b) Continuity.pdf" },
         { title: "Lecture 3 Derivative", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 3 Derivative.pdf" },
         { title: "Lecture 4 Successive Differentiation", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 4 Successive Differentiation.pdf" },
-        { title: "Lecture 5 Leibnitz Theorem", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 5 Leibnitz Theorem.pdf" },
+        { title: "Lecture 5 Leibnitz Theorem", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 5 Libnitz Theorem.pdf" },
         { title: "Lecture 6 Rolle's Theorem and Mean Value Theorem", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 6 Rolle's Theorem and Mean Value Theorem.pdf" },
         { title: "Lecture 7 Increasing Decreasing Concavity", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 7 Increasing Decreasing Concavity.pdf" },
         { title: "Lecture 7 Increasing Decreasing Concavity 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 7 Increasing Decreasing Concavity 2.pdf" },
-        { title: "Lecture 8 Relative Extrema", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Extrema.pdf" },
-        { title: "Lecture 8 Relative Extrema 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Extrema 2.pdf" },
+        { title: "Lecture 8 Relative Extrema", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Exrema.pdf" },
+        { title: "Lecture 8 Relative Extrema 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 8 Relative Exrema 2.pdf" },
         { title: "Lecture 10 Partial Differentiation", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 10 Partial Differentiation.pdf" },
-        { title: "Lecture 11 Euler's Theorem for Homogeneous Function", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 11 Euler's Theorem for Homogeneous Function.pdf" },
+        { title: "Lecture 11 Euler's Theorem for Homogeneous Function", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 11 Euler's Theorem for Homogeneous Funtion.pdf" },
         { title: "Lecture 12 Integration Part 1", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 12 Integration Part 1.pdf" },
         { title: "Lecture 13 Integration Part 2", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 13 Integration Part 2.pdf" },
         { title: "Lecture 14 Integration Part 3", file: "content/1st-semester/MAT101-differential-and-integral-calculus/slides/Lecture 14 Integration Part 3.pdf" },
@@ -134,7 +134,7 @@ const COURSES = [
     categories: {
       slides: [
         { title: "Counting", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Counting.pdf" },
-        { title: "Discrete Azad Sir", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Discrete Azir Sir.pdf" },
+        { title: "Discrete Azad Sir", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Discrete Azad Sir.pdf" },
         { title: "Functions Part 2", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Functions Part 2.pdf" },
         { title: "Functions", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Functions.pdf" },
         { title: "Graph", file: "content/1st-semester/CSE106-discrete-mathematics/slides/Graph.pdf" },
@@ -308,7 +308,7 @@ const COURSES = [
         { title: "Chapter 2", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Chapter 2.pdf" },
         { title: "Chapter 5", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/Chapter 5.pdf" },
         { title: "Chapter 6", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_6.pdf" },
-        { title: "Chapter 6.1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_6 1.pdf" },
+        { title: "Chapter 6.1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_6_1.pdf" },
         { title: "Chapter 7", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_7.pdf" },
         { title: "Chapter 8", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/chapter_8.pdf" },
         { title: "Partial Differential Equations 1", file: "content/2nd-semester/MAT102-differential-equations-and-special-functions/slides/PDE_01.pdf" },
@@ -349,13 +349,13 @@ const COURSES = [
     categories:
     {
       slides: [
-        { title: "Course Compilation", file: "content/2nd-semester/ENG102-composition-and-communication-skills/slides/ENG102 Course Compilation.pdf" }
+        { title: "Course Compilation", file: "content/2nd-semester/ENG102-composition-and-communication-skills/slides/ENG102 Compilation.pdf" }
       ],
       notes: [],
       previousQuestions: [
         { title: "Quiz 1", file: "content/2nd-semester/ENG102-composition-and-communication-skills/previous-questions/Quiz 1 Spring 2025.JPG" },
         { title: "Quiz 2", file: "content/2nd-semester/ENG102-composition-and-communication-skills/previous-questions/Quiz 2 Spring 2025.JPG" },
-        { title: "Mid Page 1", file: "content/2nd-semester/ENG102-composition-and-communication-skills/previous-questions/Mid Spring 2025.jpg" },
+        { title: "Mid Page 1", file: "content/2nd-semester/ENG102-composition-and-communication-skills/previous-questions/Mid Spring 2025.JPG" },
         { title: "MId page 2", file: "content/2nd-semester/ENG102-composition-and-communication-skills/previous-questions/Mid Spring 2025 (2).jpg" },
       ],
       assignments: [
@@ -400,8 +400,8 @@ const COURSES = [
       notes: [],
       previousQuestions: [
         { title: "Quiz 1", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Quiz 1.pdf" },
-        { title: "Mid", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-quesitons/Mid.pdf" },
-        { title: "Final", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Lab Quiz.pdf" },
+        { title: "Mid", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Mid.pdf" },
+        { title: "Lab Final Quiz", file: "content/2nd-semester/CHE109-engineering-chemistry-1/previous-questions/Lab Quiz.pdf" },
 
       ],
       assignments: [],
@@ -445,7 +445,7 @@ const COURSES = [
     categories: {
       slides: [
         { title: "Object", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/Object.pdf" },
-        { title: "Abstract Class - Interface", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/AbstractClass_interfaces.pdft.pdf" },
+        { title: "Abstract Class - Interface", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/AbstractClass_interfaces.pdf" },
         { title: "Inheritence, Polymorphism", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/11slide.pdf" },
         { title: "Exception Handling", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/Exception Handling.pdf" },
         { title: "File Operation", file: "content/3rd-semester/CSE110-object-oriented-programming/slides/FileOperationJava.pdf" },
@@ -836,7 +836,7 @@ const COURSES = [
         { title: "Lecture 3 Relational Model", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 3 Relational Model.pdf" },
         { title: "Lecture 4 Relational Algebra", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 4 Relational Algebra.pdf" },
         { title: "Lecture 5 Intermediate SQL", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 5 Intermediate SQL.pdf" },
-        { title: "Lecture 6 ERD", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 6 Entity Relationships Diagram.pdf" },
+        { title: "Lecture 6 ERD", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 6 Entity Relationship Diagram.pdf" },
         { title: "Lecture 7 ERD to Schema", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 7 ERD to Schema.pdf" },
         { title: "Lecture 8 Functional Dependency", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 8 Functional Dependency.pdf" },
         { title: "Lecture 9 Normalization", file: "content/5th-semester/CSE302-database-systems/slides/Lecture 9 Normalization.pdf" },
@@ -851,8 +851,8 @@ const COURSES = [
 
         { title: "Lab Final Set A", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Fall25 Set A.jpg" },
         { title: "Lab Final Set B", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Fall25 Set B.jpg" },
-        { title: "Lab Final Set C", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set A.jpg" },
-        { title: "Lab Final Set D", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set B.jpg" },
+        { title: "Lab Final Set C", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set A.JPG" },
+        { title: "Lab Final Set D", file: "content/5th-semester/CSE302-database-systems/previous-questions/Lab Final Spring 26 Set B.JPG" },
       ],
       assignments: [
         { title: "Assignment 1 Problem", file: "content/5th-semester/CSE302-database-systems/assignments/Lab 1.pdf" },
