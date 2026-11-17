@@ -1397,8 +1397,8 @@ const COURSES = [
         { title: "Quiz 1 Summer 2024", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Summer 2024.jpeg" },
         { title: "Quiz 1 Fall 2024 SetC", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Fall 2024 SetC .jpeg" },
         { title: "Quiz 1 Summer 2026", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Summer26.jpg" },
-        { title: "Quiz 1 Fall 2026 Set A", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Fall26 Set A.jpg" },
-        { title: "Quiz 1 Fall 2026 Set B", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Fall26 Set B.jpg" },
+        { title: "Quiz 1 Fall 2026 Set A", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Fall 2026 SetA.jpg" },
+        { title: "Quiz 1 Fall 2026 Set B", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 1 Fall 2026 SetB.jpg" },
 
         { title: "Quiz 2 Fall 2021", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 2 Fall 2021.pdf" },
         { title: "Quiz 2 Fall 2021 SetB", file: "content/7th-semester/CSE360-computer-architecture/previous-questions/Quiz 2 Fall 2021 SetB.pdf" },
